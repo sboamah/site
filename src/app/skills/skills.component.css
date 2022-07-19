@@ -1,0 +1,21 @@
+#skills-card{
+    width:800px;
+    margin:0px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#skills {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #FFD24D;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(1) {
+    background-color: #ffde7c;
+  }

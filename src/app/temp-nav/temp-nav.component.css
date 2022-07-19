@@ -1,0 +1,29 @@
+#main{
+    margin: 10px;
+    padding: 20px;
+    width: 850px;
+    margin: 0 auto;
+}
+
+#bio-links{
+    padding: 15px;
+    text-align: center;
+    background-color: #FFD24D;
+    height: fit-content;
+}
+
+a{
+    margin: 20px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:focus,  a:active, a:visited:active{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+}

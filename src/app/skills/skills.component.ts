@@ -13,8 +13,3 @@ export class SkillsComponent implements OnInit {
   }
 
 }
-
-export class Skills {
-  title = '';
-  content = '';
-}
