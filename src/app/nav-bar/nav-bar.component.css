@@ -1,5 +1,5 @@
 nav {
-    background-color: #ffd24d;
+    border-bottom: 1px solid  #4dffa3;
     z-index: 2;
     width: 100%;
     position: relative;
@@ -7,7 +7,7 @@ nav {
     padding-top: 15px;
     padding-bottom: 5px;
     top: -5px;
-    left: -5px;
+    left: 0px;
     text-align: right;
     vertical-align: middle;
   }

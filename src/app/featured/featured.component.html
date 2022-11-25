@@ -1,0 +1,12 @@
+<h2 class="section-title">featured</h2>
+<div id="featured-body">
+  <div *ngFor="let feature of features">
+    <div class="card">
+      <div class="card-body">
+          <img src="{{feature.img}}" alt="{{feature.title}}">
+          <h3><a routerLink="{{feature.link}}">{{feature.title}}</a></h3>
+          <p>{{feature.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+#about-card{
+    margin: 0px;
+    padding: 10px;
+    width:100%;
+    margin: 0 auto;
+}
+  
+img{
+    width: 100%;
+    padding-right: 20px;
+}
+
+#bio{
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
