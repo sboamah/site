@@ -1,13 +1,52 @@
 <header>
-    <nav>
-    <div class="name"><a routerLink="/">Sylvia Boamah</a></div> 
-    <img id="hamburger" routerLink="#" src='assets/hamburgerIcon.png'/><br><br>
-    <ul id ="menu">
-        <li class="nav-item"><a routerLink="/">home</a></li>
-        <li class="nav-item"><a routerLink="work">work</a></li> 
-        <li class="nav-item"><a routerLink="https://drive.google.com/file/d/1nCj2IgyV3IqITM6QK9q1QeroiFJhU1P2/view?usp=sharing">resume</a></li>
-        <li class="nav-item"><a routerLink="contact">contact</a></li>
-        <li class="nav-item"><a routerLink="https://www.redbubble.com/people/jollofrican/shop?asc=u">shop</a></li>
-    </ul>
-    </nav>
+  <nav>
+    <div class="name"><a routerLink="/">Sylvia Boamah</a></div>
+
+  <div class="dropdown">
+    <button class="dropbtn" onclick="showLinks()"><img src="assets/hamburgerIcon.png">
+    </button>
+    <div class="dropdown-content">
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="">Resume</a>
+      <a href="/contact">Contact</a>
+    </div>
+  </div> 
+  </nav>
 </header>
+<!-- <div id="menu">
+  <div class="nav-item"><a routerLink="/">home</a></div>
+  <div class="nav-item"><a routerLink="work">work</a></div>
+  <div class="nav-item">
+    <a
+      routerLink="https://drive.google.com/file/d/1nCj2IgyV3IqITM6QK9q1QeroiFJhU1P2/view?usp=sharing"
+      >resume</a
+    >
+  </div>
+  <div class="nav-item"><a routerLink="contact">contact</a></div>
+  <div class="nav-item">
+    <a
+      routerLink="https://www.redbubble.com/people/jollofrican/shop?asc=u"
+      >shop</a
+    >
+  </div>
+</div> -->
+<script>
+  function showLinks(){
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+      }
+  </script>

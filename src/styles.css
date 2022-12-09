@@ -43,3 +43,12 @@ hr {
     border: 1px solid #eee;
     background-color: #eee;
 }
+
+figcaption{
+    font-size: 0.9em;
+}
+
+figure{
+    width: 100%;
+    margin-left: 0px;
+}

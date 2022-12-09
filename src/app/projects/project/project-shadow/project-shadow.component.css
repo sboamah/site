@@ -22,11 +22,15 @@ a{
       align-items: center;
       justify-content: center;
       column-gap: 10px;
-      grid-template-columns: 43% 57%;
+      grid-template-columns: 42% 58%;
       grid-template-rows: auto;
       margin: 0 auto;
     }
 
  .gallery img{
   object-fit: fill;
+ }
+
+ .assets{
+    text-align: center;
  }
