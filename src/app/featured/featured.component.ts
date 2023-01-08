@@ -32,16 +32,8 @@ export const FEATURES: Features[] = [
   {
     id: 1,
     title: 'Student Awards',
-    description: 'Social Justice Advocate Award, Program of the Year for Advocacy 2021, & Waldo Shumway Award 2022',
+    description: "During my time at Stevens, I won the Social Justice Advocate Award and Program of the Year for Advocacy in 2021. In 2022, I won the Waldo Shumway Award, which is an award for Dean's List students who make an impact in the campus community (me pictured with the award on the left).",
     img: 'assets/WaldoShumway.jpg',
     link: 'https://www.stevens.edu/campus-life/student-affairs/student-awards'
   },
-
-  {
-    id: 2,
-    title: 'Stevens For Solidarity',
-    description: 'Quotes from students demanding justice & social change',
-    img: 'assets/S4S.jpg',
-    link: 'https://www.instagram.com/p/CBjcK_-jHkS/'
-  }
 ]
