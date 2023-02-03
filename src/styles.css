@@ -1,15 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
-    font-family: 'Jost';
-    background: linear-gradient(#fff, #cbe2d3, #fff);
+    font-family: 'Poppins';
+    background-color: #f7f7f7;
+    /* background: linear-gradient(#fff, #cbe2d3, #fff); */
 }
 
 .section-title{
     font-size: 2.5em;
     line-height: 1em;
-    width: 60%;
     margin: 0 auto;
     color: #007a3f;
     font-weight: bolder;
@@ -51,4 +51,15 @@ figcaption{
 figure{
     width: 100%;
     margin-left: 0px;
+}
+
+.body-width{
+    width: 60%;
+}
+
+@media screen and (max-width:500px) {
+    .body-width{
+        width: 90%;
+    }
+    
 }

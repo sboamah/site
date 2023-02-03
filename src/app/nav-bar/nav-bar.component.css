@@ -24,7 +24,7 @@ nav {
   .name {
     float: left;
     text-align: left;
-    font-size: 2em;
+    font-size: 1.7em;
     padding-left: 20px;
   }
   
@@ -111,4 +111,13 @@ nav {
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  .nav-links{
+    margin-top:10px;
+  }
+
+  .nav-links a{
+    padding: 20px;
+    color: #007a3f;
   }

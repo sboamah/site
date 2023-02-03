@@ -17,31 +17,36 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './home/skills/skills.component';
 import { HomeComponent } from './home/home.component';
 import { SmallNavComponent } from './small-nav/small-nav.component';
+import { ContactComponent } from "./home/about/contact/contact.component";
+import { ValuesComponent } from "./home/about/values/values.component";
 
 
 @NgModule({
-  declarations: [		
-    AppComponent,
-    NavBarComponent,
-    SkillsComponent,
-    AboutComponent,
-      IntroComponent,
-      ProjectsComponent,
-      FeaturedComponent,
-      ArtComponent,
-      LaunchHobokenComponent,
-      RecollectComponent,
-      PositiveAffirmationGeneratorComponent,
-      ProjectShadowComponent,
-      HomeComponent,
-      SmallNavComponent,
-   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    RouterModule,
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        NavBarComponent,
+        SkillsComponent,
+        AboutComponent,
+        IntroComponent,
+        ProjectsComponent,
+        FeaturedComponent,
+        ArtComponent,
+        LaunchHobokenComponent,
+        RecollectComponent,
+        PositiveAffirmationGeneratorComponent,
+        ProjectShadowComponent,
+        HomeComponent,
+        SmallNavComponent,
+        ContactComponent, 
+        ValuesComponent
+    ],
+    providers: [],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        RouterModule,
+       
+    ]
 })
 export class AppModule { }
