@@ -1,11 +1,8 @@
 #project-body{
-    width:60%;
+    width:100%;
     margin: 0 auto;
     padding-bottom: 30px;
-    grid-row: inherit;
-    display: grid;
-    grid-template-columns: 100%;
-    border-bottom: 1px solid #eee;
+
 }
 
 /* .card-body{

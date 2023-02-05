@@ -53,13 +53,14 @@ figure{
     margin-left: 0px;
 }
 
-.body-width{
+#container{
     width: 60%;
+    margin: 0 auto;
 }
 
-@media screen and (max-width:500px) {
-    .body-width{
-        width: 90%;
+@media screen and (max-width:588px) {
+    #container{
+        width: 95%;
     }
     
 }

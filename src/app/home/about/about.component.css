@@ -1,20 +1,9 @@
-#about-card{
-    margin: 0px;
-    padding: 10px;
-    margin: 0 auto;
-    width:60%;
-}
-
 #about-me{
     display:flex;
     
 }
 
-@media screen and (max-width:500px) {
-    #about-card{
-        width:90%;
-    }
-
+@media screen and (max-width:980px) {
     #about-me{
         display:block; 
     }

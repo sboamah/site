@@ -15,8 +15,8 @@ img{
 }
 
 .card{
-    height:300px;
-    overflow: hidden;
+    /* height:300px;
+    overflow: hidden; */
 }
 
 .card-body{
@@ -24,16 +24,12 @@ img{
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:980px) {
 
     .card-body{
         display:block; 
     }
 
-    .card{
-        height: auto;
-        overflow: visible;
-    }
 
     img{
         width:100%;
