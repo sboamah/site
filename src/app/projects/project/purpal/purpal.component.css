@@ -5,3 +5,17 @@
 img{
     width: 100%;
 }
+
+.digital-wireframe{
+    display: grid;
+    grid-template-columns: 38% 60%;
+    gap:20px;
+}
+
+
+@media screen and (max-width:980px){
+    .digital-wireframe{
+        grid-template-columns: 100%;
+        gap:0px;
+    }
+}
