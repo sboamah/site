@@ -4,6 +4,8 @@
 body {
     font-family: 'Poppins';
     background-color: #f7f7f7;
+    cursor: pointer;
+    scroll-behavior: smooth;
     /* background: linear-gradient(#fff, #cbe2d3, #fff); */
 }
 
@@ -35,8 +37,13 @@ body {
     padding-top: 20px;
 }
 
+h3{
+    font-weight: 300;
+}
+
+
 p, li, table {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 hr {

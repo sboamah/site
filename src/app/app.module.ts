@@ -19,6 +19,7 @@ import { HomeComponent } from './home/home.component';
 import { SmallNavComponent } from './small-nav/small-nav.component';
 import { ContactComponent } from "./home/about/contact/contact.component";
 import { ValuesComponent } from "./home/about/values/values.component";
+import { PurpalComponent } from './projects/project/purpal/purpal.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { ValuesComponent } from "./home/about/values/values.component";
         HomeComponent,
         SmallNavComponent,
         ContactComponent, 
-        ValuesComponent
+        ValuesComponent,
+        PurpalComponent
     ],
     providers: [],
     bootstrap: [AppComponent],

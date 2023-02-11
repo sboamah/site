@@ -19,7 +19,7 @@ export class ProjectComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.subscribe(params => {
-      const key = params.key;
+      const key = params['key'];
       this.projectService.getProject(key).subscribe(
         project => {
           if (project === undefined){

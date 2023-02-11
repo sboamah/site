@@ -7,6 +7,7 @@ import { SkillsComponent } from './home/skills/skills.component';
 import { RecollectComponent } from './projects/project/recollect/recollect.component';
 import { ProjectShadowComponent } from './projects/project/project-shadow/project-shadow.component';
 import { PositiveAffirmationGeneratorComponent } from './projects/project/positive-affirmation-generator/positive-affirmation-generator.component';
+import { PurpalComponent } from './projects/project/purpal/purpal.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent, children:[
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: 'recollect', component: RecollectComponent},
   {path: 'project-shadow', component: ProjectShadowComponent},
   {path: 'launch-hoboken', component: LaunchHobokenComponent},
-  {path: 'positive-affirmation-generator', component: PositiveAffirmationGeneratorComponent}
+  {path: 'positive-affirmation-generator', component: PositiveAffirmationGeneratorComponent},
+  {path: 'purpal', component: PurpalComponent}
 ];
 
 

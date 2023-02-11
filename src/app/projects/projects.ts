@@ -10,6 +10,15 @@ export class Projects {
 export const PROJECTS: Projects[] = [
     {
         id: 1,
+        title: 'PurPal: Cat Nutrition App Case Study',
+        img: 'assets/PurPalBanner.png',
+        role: 'Lead UX Designer',
+        description: 'Design a nutrition tracking app for a subscription cat food vendor.',
+        key: 'purpal'
+    
+    },
+    {
+        id: 2,
         title: 'ReCollect',
         img: 'assets/ReCollectBanner.png',
         role: 'Mobile UI/Front-End Developer',
@@ -18,7 +27,7 @@ export const PROJECTS: Projects[] = [
     
     },
     {
-        id: 2,
+        id: 3,
         title: 'Project Shadow',
         img: 'assets/PSBanner.png',
         role: 'Mobile UI Developer Intern',
@@ -26,7 +35,7 @@ export const PROJECTS: Projects[] = [
         key: 'project-shadow'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Launch Hoboken Design Competition',
         img: 'assets/LHBanner.png',
         role: 'UI Design Finalist',
@@ -34,7 +43,7 @@ export const PROJECTS: Projects[] = [
         key: 'launch-hoboken'
     },
     {
-        id: 4,
+        id: 5,
         title: 'Positive Affirmation Generator',
         img: 'assets/PAGBanner.png',
         role: 'UI Designer and Developer',
