@@ -20,6 +20,7 @@ import { SmallNavComponent } from './small-nav/small-nav.component';
 import { ContactComponent } from "./home/about/contact/contact.component";
 import { ValuesComponent } from "./home/about/values/values.component";
 import { PurpalComponent } from './projects/project/purpal/purpal.component';
+import { InstagramComponent } from './projects/instagram/instagram.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { PurpalComponent } from './projects/project/purpal/purpal.component';
         SmallNavComponent,
         ContactComponent, 
         ValuesComponent,
-        PurpalComponent
+        PurpalComponent,
+        InstagramComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
