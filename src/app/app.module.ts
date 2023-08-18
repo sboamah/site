@@ -14,20 +14,16 @@ import { PositiveAffirmationGeneratorComponent } from './projects/project/positi
 import { ProjectShadowComponent } from './projects/project/project-shadow/project-shadow.component';
 import { RecollectComponent } from './projects/project/recollect/recollect.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { SkillsComponent } from './home/skills/skills.component';
 import { HomeComponent } from './home/home.component';
-import { SmallNavComponent } from './small-nav/small-nav.component';
 import { ContactComponent } from "./home/about/contact/contact.component";
-import { ValuesComponent } from "./home/about/values/values.component";
 import { PurpalComponent } from './projects/project/purpal/purpal.component';
-import { InstagramComponent } from './projects/instagram/instagram.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
-    declarations: [
+    declarations: [	
         AppComponent,
         NavBarComponent,
-        SkillsComponent,
         AboutComponent,
         IntroComponent,
         ProjectsComponent,
@@ -38,12 +34,10 @@ import { InstagramComponent } from './projects/instagram/instagram.component';
         PositiveAffirmationGeneratorComponent,
         ProjectShadowComponent,
         HomeComponent,
-        SmallNavComponent,
         ContactComponent, 
-        ValuesComponent,
         PurpalComponent,
-        InstagramComponent
-    ],
+      FooterComponent
+   ],
     providers: [],
     bootstrap: [AppComponent],
     imports: [

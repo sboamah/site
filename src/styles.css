@@ -1,19 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=DM+Serif+Text&family=Manrope&display=swap');
 body {
-    font-family: 'Poppins';
-    background-color: #f7f7f7;
-    cursor: pointer;
+    font-family: 'Manrope';
+    background-color: #fff;
     scroll-behavior: smooth;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
     /* background: linear-gradient(#fff, #cbe2d3, #fff); */
+}
+h1{
+    font-family: 'Bricolage Grotesque';
+}
+h2{
+    font-family: 'DM Serif Text';
+    text-align: left;
 }
 
 .section-title{
     font-size: 2.5em;
+    font-family: 'DM Serif Text';
     line-height: 1em;
     margin: 0 auto;
-    color: #007a3f;
+    color: #ab8115;
     font-weight: bolder;
     text-transform: capitalize;
     text-align: left;
@@ -26,9 +35,10 @@ body {
 .project-title{
     font-size: 2.5em;
     line-height: 1em;
+    font-family: 'DM Serif Text';
     /* width: 60%; */
     margin: 0 auto;
-    color: #007a3f;
+    color: #ab8115;
     font-weight: bolder;
     text-transform: capitalize;
     text-align: left;
@@ -42,13 +52,14 @@ h3{
 }
 
 
-p, li, table {
+p, li{
     font-size: 1em;
 }
 
 hr {
     border: 1px solid #eee;
     background-color: #eee;
+    margin: 40px 0;
 }
 
 figcaption{

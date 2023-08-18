@@ -1,0 +1,31 @@
+footer{
+    border-top: 1px solid #DAA520;
+    background-color: #FFD24D;
+    width: 100%;
+    padding: 40px 0;
+    left: 0px;
+}
+  footer img {
+    width:30px;
+    margin-bottom: 10px;
+  }
+
+  footer a{
+    text-decoration: none;
+    color:black;
+    display: block;
+  }
+  hr {
+    border: 1px solid #DAA520;
+    background-color: #DAA520;
+    margin: 40px 0;
+    width: 100%;
+}
+.footer-width{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
