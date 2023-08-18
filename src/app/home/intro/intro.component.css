@@ -4,8 +4,13 @@
 
 h1{
     font-size: 4em;
+
 }
 
 .name-style{
-    color: #007a3f;
+    color: #ab8115;
+}
+
+#container{
+    margin-top: 100px;
 }
