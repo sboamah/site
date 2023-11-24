@@ -1,29 +1,22 @@
-#about-me{
-    display:flex;
-    
+#about-me {
+  display: flex;
 }
 
-@media screen and (max-width:980px) {
-    #about-me{
-        display:block; 
-    }
-    
+@media screen and (max-width: 980px) {
+  #about-me {
+    display: block;
+  }
 }
 
-
-
-#about-me div{
-    flex: 1;
+#about-me div {
+  flex: 1;
 }
 
-
-img{
-    width: 100%;
-    margin-top:30px;
-    
+img {
+  width: 100%;
+  margin-top: 30px;
 }
 
-#bio{
-    margin-top: 30px;
+#bio {
+  margin-top: 30px;
 }
-

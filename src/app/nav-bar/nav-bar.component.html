@@ -1,13 +1,13 @@
 <header>
   <nav>
-    <div class="name"><img src="assets/Logo.png"></div>
+    <div class="name"><img src="assets/Logo_transparent.png" /></div>
 
     <div class="nav-links">
       <a href="/">Home</a>
       <a href="/about">About</a>
       <a href="">Resume</a>
     </div>
-  <!-- <div class="dropdown">
+    <!-- <div class="dropdown">
     <button class="dropbtn" onclick="showLinks()"><img src="assets/hamburgerIcon.png">
     </button>
     <div class="dropdown-content">
@@ -36,21 +36,21 @@
   </div>
 </div> -->
 <script>
-  function showLinks(){
+  function showLinks() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
-  
+
   // Close the dropdown menu if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
+  window.onclick = function (event) {
+    if (!event.target.matches(".dropbtn")) {
       var dropdowns = document.getElementsByClassName("dropdown-content");
       var i;
       for (i = 0; i < dropdowns.length; i++) {
         var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
+        if (openDropdown.classList.contains("show")) {
+          openDropdown.classList.remove("show");
         }
       }
     }
-      }
-  </script>
+  };
+</script>

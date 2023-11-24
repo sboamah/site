@@ -10,21 +10,29 @@ import { PurpalComponent } from './projects/project/purpal/purpal.component';
 import { MerfashWebsiteComponent } from './projects/project/merfash-website/merfash-website.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent, children:[
-    {path: '', component: AboutComponent},
-  ]},
-  {path: 'about', component: AboutComponent},
-  {path: 'projects/recollect', component: RecollectComponent},
-  {path: 'projects/project-shadow', component: ProjectShadowComponent},
-  {path: 'projects/launch-hoboken', component: LaunchHobokenComponent},
-  {path: 'projects/positive-affirmation-generator', component: PositiveAffirmationGeneratorComponent},
+  {
+    path: '',
+    component: HomeComponent,
+    children: [{ path: '', component: AboutComponent }],
+  },
+  { path: 'about', component: AboutComponent },
+  { path: 'projects/recollect', component: RecollectComponent },
+  { path: 'projects/project-shadow', component: ProjectShadowComponent },
+  { path: 'projects/launch-hoboken', component: LaunchHobokenComponent },
+  {
+    path: 'projects/positive-affirmation-generator',
+    component: PositiveAffirmationGeneratorComponent,
+  },
   // {path: 'projects/purpal', component: PurpalComponent},
-  {path: 'projects/merfash-website', component: MerfashWebsiteComponent},
+  { path: 'projects/merfash-website', component: MerfashWebsiteComponent },
 ];
 
-
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [
+    RouterModule.forRoot(routes, {
+      scrollPositionRestoration: 'enabled',
+    }),
+  ],
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

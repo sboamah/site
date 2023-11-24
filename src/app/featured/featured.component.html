@@ -3,10 +3,12 @@
   <div *ngFor="let feature of features">
     <div class="card">
       <div class="card-body">
-          <img src="{{feature.img}}" alt="{{feature.title}}">
-          <div>
-          <h3><a href="{{feature.link}}">{{feature.title}}</a></h3>
-          <p>{{feature.description}}</p>
+        <img src="{{ feature.img }}" alt="{{ feature.title }}" />
+        <div>
+          <h3>
+            <a href="{{ feature.link }}">{{ feature.title }}</a>
+          </h3>
+          <p>{{ feature.description }}</p>
         </div>
       </div>
     </div>

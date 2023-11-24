@@ -11,9 +11,8 @@ describe('MerfashWebsiteComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MerfashWebsiteComponent ]
-    })
-    .compileComponents();
+      declarations: [MerfashWebsiteComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

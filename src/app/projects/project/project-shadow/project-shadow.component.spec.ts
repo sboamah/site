@@ -11,9 +11,8 @@ describe('ProjectShadowComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ProjectShadowComponent ]
-    })
-    .compileComponents();
+      declarations: [ProjectShadowComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

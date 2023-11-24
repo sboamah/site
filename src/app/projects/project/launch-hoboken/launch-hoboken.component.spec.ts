@@ -11,9 +11,8 @@ describe('LaunchHobokenComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LaunchHobokenComponent ]
-    })
-    .compileComponents();
+      declarations: [LaunchHobokenComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

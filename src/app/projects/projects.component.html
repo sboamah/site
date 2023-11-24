@@ -1,19 +1,15 @@
 <h2 class="section-title">projects</h2>
 <div id="project-body">
-<div *ngFor="let project of projects">
-  <div class="card">
-    <div class="card-body">
-      <div>
-        <img src={{project.img}} alt={{project.title}}>
+  <div *ngFor="let project of projects">
+    <div class="card">
+      <div class="card-body">
+        <div class="info">
+          <h3>{{ project.title }}</h3>
+          <h4 class="role">{{ project.role }}</h4>
+          <p class="caption" [innerHTML]="project.description"></p>
+          <a routerLink="/{{ project.key }}">Learn More</a>
+        </div>
       </div>
-     <div class="info">
-      <h3>{{project.title}}</h3>
-      <h4 class="role">{{project.role}}</h4>
-      <p class="caption" [innerHTML] = "project.description"></p>
-      
-      <a routerLink="/{{project.key}}">Learn More</a>
-     </div>
     </div>
   </div>
-</div>
 </div>

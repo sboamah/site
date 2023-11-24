@@ -1,84 +1,82 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=DM+Serif+Text&family=Manrope&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=DM+Serif+Text&family=Manrope&display=swap");
 body {
-    font-family: 'Manrope';
-    background-color: #fff;
-    scroll-behavior: smooth;
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
-    /* background: linear-gradient(#fff, #cbe2d3, #fff); */
+  font-family: "Manrope";
+  background-color: #f7fff5;
+  scroll-behavior: smooth;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  /* background: linear-gradient(#fff, #cbe2d3, #fff); */
 }
-h1{
-    font-family: 'Bricolage Grotesque';
+h1 {
+  font-family: "DM Serif Text";
 }
-h2{
-    font-family: 'DM Serif Text';
-    text-align: left;
-}
-
-.section-title{
-    font-size: 2.5em;
-    font-family: 'DM Serif Text';
-    line-height: 1em;
-    margin: 0 auto;
-    color: #ab8115;
-    font-weight: bolder;
-    text-transform: capitalize;
-    text-align: left;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
+h2 {
+  font-family: "DM Serif Text";
+  text-align: left;
 }
 
-
-.project-title{
-    font-size: 2.5em;
-    line-height: 1em;
-    font-family: 'DM Serif Text';
-    /* width: 60%; */
-    margin: 0 auto;
-    color: #ab8115;
-    font-weight: bolder;
-    text-transform: capitalize;
-    text-align: left;
-    padding-bottom: 20px;
-    /* padding-left: 20px; */
-    padding-top: 20px;
+.section-title {
+  font-size: 2.5em;
+  font-family: "DM Serif Text";
+  line-height: 1em;
+  margin: 0 auto;
+  color: #00582d;
+  font-weight: bolder;
+  text-transform: capitalize;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
-h3{
-    font-weight: 300;
+.project-title {
+  font-size: 2.5em;
+  line-height: 1em;
+  font-family: "DM Serif Text";
+  /* width: 60%; */
+  margin: 0 auto;
+  color: #00582d;
+  font-weight: bolder;
+  text-transform: capitalize;
+  text-align: left;
+  padding-bottom: 20px;
+  /* padding-left: 20px; */
+  padding-top: 20px;
 }
 
+h3 {
+  font-weight: 300;
+}
 
-p, li{
-    font-size: 1em;
+p,
+li {
+  font-size: 1em;
 }
 
 hr {
-    border: 1px solid #eee;
-    background-color: #eee;
-    margin: 40px 0;
+  border: 1px solid #eee;
+  background-color: #eee;
+  margin: 40px 0;
 }
 
-figcaption{
-    font-size: 0.9em;
+figcaption {
+  font-size: 0.9em;
 }
 
-figure{
-    width: 100%;
-    margin-left: 0px;
+figure {
+  width: 100%;
+  margin-left: 0px;
 }
 
-#container{
-    width: 60%;
-    margin: 0 auto;
+#container {
+  width: 60%;
+  margin: 0 auto;
 }
 
-@media screen and (max-width:588px) {
-    #container{
-        width: 95%;
-    }
-    
+@media screen and (max-width: 588px) {
+  #container {
+    width: 95%;
+  }
 }

@@ -11,9 +11,8 @@ describe('PositiveAffirmationGeneratorComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PositiveAffirmationGeneratorComponent ]
-    })
-    .compileComponents();
+      declarations: [PositiveAffirmationGeneratorComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

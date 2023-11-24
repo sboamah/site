@@ -11,9 +11,8 @@ describe('RecollectComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RecollectComponent ]
-    })
-    .compileComponents();
+      declarations: [RecollectComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

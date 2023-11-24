@@ -11,9 +11,8 @@ describe('PurpalComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PurpalComponent ]
-    })
-    .compileComponents();
+      declarations: [PurpalComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

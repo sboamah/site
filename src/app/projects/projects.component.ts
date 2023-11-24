@@ -5,19 +5,19 @@ import { ProjectsService } from './projects.service';
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+  styleUrls: ['./projects.component.css'],
 })
 export class ProjectsComponent implements OnInit {
   projects: Projects[] = [];
-  constructor(private projectService: ProjectsService) { }
-
+  constructor(private projectService: ProjectsService) {}
 
   ngOnInit() {
     this.getProjects();
   }
 
-  getProjects(): void{
-    this.projectService.getProjects().subscribe(projects => (this.projects = projects));
+  getProjects(): void {
+    this.projectService
+      .getProjects()
+      .subscribe((projects) => (this.projects = projects));
   }
-
 }

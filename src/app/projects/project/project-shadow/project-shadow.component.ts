@@ -3,13 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-project-shadow',
   templateUrl: './project-shadow.component.html',
-  styleUrls: ['./project-shadow.component.css']
+  styleUrls: ['./project-shadow.component.css'],
 })
 export class ProjectShadowComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

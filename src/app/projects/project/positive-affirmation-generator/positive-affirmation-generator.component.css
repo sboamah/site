@@ -1,27 +1,60 @@
-h3{
-    font-weight: 100;
+h3 {
+  font-weight: 100;
 }
 
-p{
-    text-align: left;
+p {
+  text-align: left;
 }
 
-a{
-    color: #00582d;
+a {
+  color: #00582d;
 }
 
-img{
-    width:100%;
+img {
+  width: 100%;
 }
 
-.tg  { font-size: 14px; width: 100%; border-collapse: collapse; text-align: left; table-layout:fixed;}
-        .tg tbody{ height: 300px; overflow-y:scroll;}  
-        .tg td{border:1px solid #eee; padding: 10px;}
-        .tg th{border:1px solid #eee; padding: 10px;}
+.tg {
+  font-size: 14px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  table-layout: fixed;
+}
+.tg tbody {
+  height: 300px;
+  overflow-y: scroll;
+}
+.tg td {
+  border: 1px solid #eee;
+  padding: 10px;
+}
+.tg th {
+  border: 1px solid #eee;
+  padding: 10px;
+}
 
-@media screen and (max-width:980px){
-    .tg thead{ border:none; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width:1px;}
-    .tg td{display: block;}
-    .tg td::before{content:attr(data-label); float:left; padding-right: 10px; font-weight: 800;}
-    .tg tr{display: block;}
+@media screen and (max-width: 980px) {
+  .tg thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  .tg td {
+    display: block;
+  }
+  .tg td::before {
+    content: attr(data-label);
+    float: left;
+    padding-right: 10px;
+    font-weight: 800;
+  }
+  .tg tr {
+    display: block;
+  }
 }

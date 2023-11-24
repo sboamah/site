@@ -15,36 +15,32 @@ import { ProjectShadowComponent } from './projects/project/project-shadow/projec
 import { RecollectComponent } from './projects/project/recollect/recollect.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { HomeComponent } from './home/home.component';
-import { ContactComponent } from "./home/about/contact/contact.component";
+import { ContactComponent } from './home/about/contact/contact.component';
 import { PurpalComponent } from './projects/project/purpal/purpal.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { MerfashWebsiteComponent } from './projects/project/merfash-website/merfash-website.component';
 
 @NgModule({
-    declarations: [	
-        AppComponent,
-        NavBarComponent,
-        AboutComponent,
-        IntroComponent,
-        ProjectsComponent,
-        FeaturedComponent,
-        ArtComponent,
-        LaunchHobokenComponent,
-        RecollectComponent,
-        PositiveAffirmationGeneratorComponent,
-        ProjectShadowComponent,
-        HomeComponent,
-        ContactComponent, 
-        PurpalComponent,
-      FooterComponent
-   ],
-    providers: [],
-    bootstrap: [AppComponent],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        RouterModule,
-       
-    ]
+  declarations: [
+    AppComponent,
+    NavBarComponent,
+    AboutComponent,
+    IntroComponent,
+    ProjectsComponent,
+    FeaturedComponent,
+    ArtComponent,
+    LaunchHobokenComponent,
+    RecollectComponent,
+    PositiveAffirmationGeneratorComponent,
+    ProjectShadowComponent,
+    HomeComponent,
+    ContactComponent,
+    PurpalComponent,
+    FooterComponent,
+    MerfashWebsiteComponent,
+  ],
+  providers: [],
+  bootstrap: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule, RouterModule],
 })
-export class AppModule { }
+export class AppModule {}

@@ -3,19 +3,18 @@ import { Observable, of } from 'rxjs';
 import { Projects, PROJECTS } from './projects';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ProjectsService {
+  constructor() {}
 
-constructor() { }
-
-getProjects() : Observable<Projects[]>{
+  getProjects(): Observable<Projects[]> {
     const projects: Projects[] = PROJECTS;
-    return of (projects)
+    return of(projects);
   }
 
   getProject(key: string): Observable<Projects> {
-    const projects: Projects[] = PROJECTS.filter(a => a.key === key);
+    const projects: Projects[] = PROJECTS.filter((a) => a.key === key);
     return of(projects[0]);
   }
 }

@@ -3,15 +3,13 @@ import { Observable, of } from 'rxjs';
 import { FEATURES, Features } from './featured.component';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class FeaturesService {
+  constructor() {}
 
-constructor() { }
-
-getFeatures() : Observable<Features[]>{
+  getFeatures(): Observable<Features[]> {
     const features: Features[] = FEATURES;
-    return of (features)
+    return of(features);
   }
-
 }

@@ -1,16 +1,15 @@
-#intro-card{
-    padding: 10px;
+#intro-card {
+  padding: 10px;
 }
 
-h1{
-    font-size: 4em;
-
+h1 {
+  font-size: 4em;
 }
 
-.name-style{
-    color: #ab8115;
+.name-style {
+  color: #00582d;
 }
 
-#container{
-    margin-top: 100px;
+#container {
+  margin-top: 100px;
 }

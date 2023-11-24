@@ -3,13 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-purpal',
   templateUrl: './purpal.component.html',
-  styleUrls: ['./purpal.component.css']
+  styleUrls: ['./purpal.component.css'],
 })
 export class PurpalComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
