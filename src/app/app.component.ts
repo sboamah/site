@@ -19,4 +19,12 @@ export class AppComponent implements OnInit {
       this.isLoading = false;
     }, 3000);
   }
+
+  backToTop(){
+    window.scroll({ 
+      top: 0, 
+      left: 0, 
+      behavior: 'smooth' 
+    });
+  }
 }
