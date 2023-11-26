@@ -1,0 +1,10 @@
+<div class="project-nav">
+  <strong>Other Projects: </strong>
+  <div *ngFor="let project of projects">
+    <a
+      *ngIf="currentLocation.indexOf(project.key) == -1"
+      routerLink="/{{ project.key }}"
+      >{{ project.title }}</a
+    >
+  </div>
+</div>

@@ -19,6 +19,7 @@ import { ContactComponent } from './home/about/contact/contact.component';
 import { PurpalComponent } from './projects/project/purpal/purpal.component';
 import { FooterComponent } from './footer/footer.component';
 import { MerfashWebsiteComponent } from './projects/project/merfash-website/merfash-website.component';
+import { ProjectNavComponent } from './projects/project-nav/project-nav.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { MerfashWebsiteComponent } from './projects/project/merfash-website/merf
     PurpalComponent,
     FooterComponent,
     MerfashWebsiteComponent,
+    ProjectNavComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],

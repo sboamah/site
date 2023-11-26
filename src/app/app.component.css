@@ -12,7 +12,7 @@
   width: 108px;
   height: 108px;
   border: 10px solid #00582d;
-  border-bottom-color: transparent;
+  border-bottom-color: #ddd;
   border-radius: 50%;
   display: inline-block;
   box-sizing: border-box;

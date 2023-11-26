@@ -1,0 +1,19 @@
+.project-nav {
+  padding: 20px;
+  background-color: #b9f2ac;
+  margin-bottom: 64px;
+  margin-right: 0;
+}
+
+.project-nav a {
+  padding-right: 10px;
+  white-space: pre;
+  color: #000;
+  text-decoration: none;
+  transition: ease-in-out 0.5s;
+}
+
+.project-nav a:hover {
+  text-decoration: underline;
+  transition: ease-in-out 0.5s;
+}
