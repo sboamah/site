@@ -34,10 +34,15 @@
     right: 40px;
     background-color: #00582d;
     color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 32px;
+    font-family: "DM Serif Text";
     font-weight: 900;
     width: 50px;
     height: 50px; 
     border-radius: 100px;
     text-align: center;
-    box-shadow: 1px 1px 3px #eee;
+    border: none;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
 }
