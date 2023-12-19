@@ -8,8 +8,9 @@ import { ProjectsService } from './projects.service';
   styleUrls: ['./projects.component.css'],
 })
 export class ProjectsComponent implements OnInit {
-  projects: Projects[] = [];
-  constructor(private projectService: ProjectsService) {}
+  uxProjects: Projects[] = [];
+  swProjects: Projects[] = [];
+  constructor(private projectService: ProjectsService) { }
 
   ngOnInit() {
     this.getProjects();
@@ -18,6 +19,11 @@ export class ProjectsComponent implements OnInit {
   getProjects(): void {
     this.projectService
       .getProjects()
-      .subscribe((projects) => (this.projects = projects));
+      .subscribe((projects) => (
+        this.swProjects = projects.filter((a) => a.projectType === 'sw')));
+    this.projectService
+      .getProjects()
+      .subscribe((projects) => (
+        this.uxProjects = projects.filter((a) => a.projectType === 'ux')));
   }
 }

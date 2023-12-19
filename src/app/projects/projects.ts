@@ -5,6 +5,7 @@ export class Projects {
   role = '';
   description = '';
   key = '';
+  projectType = '';
 }
 
 export const PROJECTS: Projects[] = [
@@ -15,6 +16,7 @@ export const PROJECTS: Projects[] = [
     role: 'Web Developer',
     description: 'Redesigned a website for a fashion designer.',
     key: 'projects/merfash-website',
+    projectType: 'sw'
   },
   {
     id: 2,
@@ -24,6 +26,7 @@ export const PROJECTS: Projects[] = [
     description:
       'Developed a mobile application for users with memory-related ailments to connect with family.',
     key: 'projects/recollect',
+    projectType: 'sw'
   },
   {
     id: 3,
@@ -33,23 +36,36 @@ export const PROJECTS: Projects[] = [
     description:
       'Collaborated to integrate screens and finalize user workflows for an iOS and Android mobile stock trading application.',
     key: 'projects/project-shadow',
+    projectType: 'sw'
   },
   {
     id: 4,
+    title: 'Path Pioneer Case Study',
+    img: 'assets/LHBanner.png',
+    role: 'UX Designer',
+    description:
+      "Created a web and mobile prototype for a career coaching app for first-generation students.",
+    key: 'projects/path-pioneer',
+    projectType: 'ux'
+  },
+  {
+    id: 5,
     title: 'Launch Hoboken Design Competition',
     img: 'assets/LHBanner.png',
     role: 'UI Design Finalist',
     description:
       "Created a website mockup for Launch Hoboken's online Innovation Portal; received second place.",
     key: 'projects/launch-hoboken',
+    projectType: 'ux'
   },
   {
-    id: 5,
+    id: 6,
     title: 'Positive Affirmation Generator',
     img: 'assets/PAGseconddesign.jpg',
     role: 'UI Designer and Developer',
     description:
       'Designed and implemented a responsive, user-friendly interface to generate and display randomized affirming sentences.',
     key: 'projects/positive-affirmation-generator',
+    projectType: 'sw'
   },
 ];

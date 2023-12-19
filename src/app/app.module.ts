@@ -16,10 +16,10 @@ import { RecollectComponent } from './projects/project/recollect/recollect.compo
 import { ProjectsComponent } from './projects/projects.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './home/about/contact/contact.component';
-import { PurpalComponent } from './projects/project/purpal/purpal.component';
 import { FooterComponent } from './footer/footer.component';
 import { MerfashWebsiteComponent } from './projects/project/merfash-website/merfash-website.component';
 import { ProjectNavComponent } from './projects/project-nav/project-nav.component';
+import { PathPioneerComponent } from './projects/project/path-pioneer/path-pioneer.component';
 
 @NgModule({
   declarations: [
@@ -36,10 +36,10 @@ import { ProjectNavComponent } from './projects/project-nav/project-nav.componen
     ProjectShadowComponent,
     HomeComponent,
     ContactComponent,
-    PurpalComponent,
     FooterComponent,
     MerfashWebsiteComponent,
     ProjectNavComponent,
+    PathPioneerComponent
   ],
   providers: [],
   bootstrap: [AppComponent],
