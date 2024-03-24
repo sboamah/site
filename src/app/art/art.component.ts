@@ -75,18 +75,18 @@ export const ART: Art[] = [
   },
   {
     id: 6,
-    title: 'Mixed Icon',
-    description:
-      "",
-    img: 'assets/mixedicon.png',
-    artType:'logo'
-  },
-  {
-    id: 7,
     title: 'Package Direct',
     description:
       "",
     img: 'assets/packagedirect.png',
+    artType:'logo'
+  },
+  {
+    id: 7,
+    title: 'Mixed Icon',
+    description:
+      "",
+    img: 'assets/mixedicon.png',
     artType:'logo'
   },
   {

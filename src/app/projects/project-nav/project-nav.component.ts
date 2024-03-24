@@ -21,6 +21,6 @@ export class ProjectNavComponent implements OnInit {
   getProjects(): void {
     this.projectService
       .getProjects()
-      .subscribe((projects) => (this.projects = projects));
+      .subscribe((projects) => (this.projects = projects.filter((a) => this.currentLocation.indexOf(a.key) == -1)));
   }
 }

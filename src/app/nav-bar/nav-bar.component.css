@@ -1,5 +1,4 @@
 nav {
-  /* border-bottom: 1px solid #DAA520; */
   background-color: #b9f2ac;
   z-index: 2;
   width: 100%;
@@ -113,4 +112,10 @@ button:active #menu {
 .nav-links a {
   padding: 20px;
   color: #000;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-links a {
+    padding: 10px;
+  }
 }

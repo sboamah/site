@@ -8,18 +8,19 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   title = 'personal-site';
   isLoading: boolean = true;
+  windowScrolled: boolean = false;
 
   ngOnInit() {
-    this.showSpinner();
-  }
-
-  showSpinner() {
     this.isLoading = true;
-    setTimeout(() => {
-      this.isLoading = false;
-    }, 3000);
+    window.addEventListener('scroll', () => {
+      this.windowScrolled = window.scrollY !== 0;
+    });
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        this.isLoading = false;
+      }, 3000);
+    })
   }
-
   backToTop(){
     window.scroll({ 
       top: 0, 
