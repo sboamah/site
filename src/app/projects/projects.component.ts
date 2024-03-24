@@ -10,6 +10,7 @@ import { ProjectsService } from './projects.service';
 export class ProjectsComponent implements OnInit {
   uxProjects: Projects[] = [];
   swProjects: Projects[] = [];
+  artProjects: Projects[] = [];
   constructor(private projectService: ProjectsService) { }
 
   ngOnInit() {
@@ -17,13 +18,10 @@ export class ProjectsComponent implements OnInit {
   }
 
   getProjects(): void {
-    this.projectService
-      .getProjects()
-      .subscribe((projects) => (
-        this.swProjects = projects.filter((a) => a.projectType === 'sw')));
-    this.projectService
-      .getProjects()
-      .subscribe((projects) => (
-        this.uxProjects = projects.filter((a) => a.projectType === 'ux')));
+    this.projectService.getProjects().subscribe((project) => (
+        this.uxProjects = project.filter((a) => a.projectType === 'ux'),
+        this.swProjects = project.filter((a) => a.projectType === 'sw'),
+        this.artProjects = project.filter((a) => a.projectType === 'art')
+        ));
   }
 }

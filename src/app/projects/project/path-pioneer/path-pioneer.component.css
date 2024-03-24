@@ -1,0 +1,50 @@
+.personas {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 3px #eee;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.key-wireframes {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 3px #eee;
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 24px;
+}
+
+.wireframe {
+  width: 100%;
+}
+
+.wireframe-text {
+  max-width: 50%;
+}
+
+@media (max-width: 800px) {
+  .personas {
+    flex-direction: column;
+  }
+  .key-wireframes {
+    flex-direction: column;
+  }
+
+  .wireframe-text {
+    max-width: 100%;
+  }
+}
+
+a {
+  color: #00582d;
+  font-weight: 700;
+  text-decoration: none;
+}

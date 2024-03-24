@@ -8,6 +8,7 @@ import { ProjectShadowComponent } from './projects/project/project-shadow/projec
 import { PositiveAffirmationGeneratorComponent } from './projects/project/positive-affirmation-generator/positive-affirmation-generator.component';
 import { MerfashWebsiteComponent } from './projects/project/merfash-website/merfash-website.component';
 import { PathPioneerComponent } from './projects/project/path-pioneer/path-pioneer.component';
+import { ArtComponent } from './art/art.component';
 
 const routes: Routes = [
   {
@@ -24,8 +25,9 @@ const routes: Routes = [
     component: PositiveAffirmationGeneratorComponent,
   },
   { path: 'projects/merfash-website', component: MerfashWebsiteComponent },
-  {path: 'projects/path-pioneer', component: PathPioneerComponent}
-];
+  {path: 'projects/path-pioneer', component: PathPioneerComponent},
+  {path: 'art', component: ArtComponent}
+]
 
 @NgModule({
   imports: [

@@ -44,6 +44,6 @@ export const FEATURES: Features[] = [
     description:
       "During my time at Stevens, I won the Social Justice Advocate Award and Program of the Year for Advocacy in 2021. In 2022, I won the Waldo Shumway Award, which is an award for Dean's List students who make an impact in the campus community.",
     img: 'assets/WaldoShumway.jpg',
-    link: 'https://www.stevens.edu/campus-life/student-affairs/student-awards',
+    link: '',
   },
 ];

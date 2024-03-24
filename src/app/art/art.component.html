@@ -1,1 +1,32 @@
-<p>art works!</p>
+<div id="container">
+<h2>Digital Art</h2>
+<div class="art-body">
+  <div *ngFor="let digital of digitalArt">
+    <div class="card">
+      <div class="card-body">
+        <img src="{{ digital.img }}" alt="{{ digital.title }}" />
+        <div class="title">
+        <p>{{ digital.title }}</p>
+          <p *ngIf="digital.description">{{ digital.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<h2>Logos</h2>
+<div class="art-body">
+    <div *ngFor="let logo of logos">
+      <div class="card">
+        <div class="card-body">
+          <img src="{{ logo.img }}" alt="{{ logo.title }}" />
+          <div class="title">
+              <p>{{ logo.title }}</p>
+            <p *ngIf="logo.description">{{ logo.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-project-nav></app-project-nav>
+</div>

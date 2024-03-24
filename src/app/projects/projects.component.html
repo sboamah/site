@@ -28,3 +28,18 @@
     </div>
   </div>
 </div>
+<h2 class="section-title">The Creative.</h2>
+<div id="project-body">
+  <div *ngFor="let project of artProjects">
+    <div class="card" *ngIf="project.projectType == 'art'">
+      <div class="card-body">
+        <div class="info">
+          <h3>{{ project.title }}</h3>
+          <h4 class="role">{{ project.role }}</h4>
+          <p class="caption" [innerHTML]="project.description"></p>
+          <a routerLink="/{{ project.key }}">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

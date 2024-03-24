@@ -68,4 +68,13 @@ export const PROJECTS: Projects[] = [
     key: 'projects/positive-affirmation-generator',
     projectType: 'sw'
   },
+  {
+    id: 7,
+    title: 'Digital Art & Logo Design',
+    img: '',
+    role: '',
+    description: "A collection of digital art and logos I've worked on",
+    key: 'art',
+    projectType: 'art'
+  }
 ];
