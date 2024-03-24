@@ -73,7 +73,7 @@ export const PROJECTS: Projects[] = [
     title: 'Digital Art & Logo Design',
     img: '',
     role: '',
-    description: "A collection of digital art and logos I've worked on",
+    description: "A collection of digital art and logos I've worked on.",
     key: 'art',
     projectType: 'art'
   }
