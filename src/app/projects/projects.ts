@@ -16,7 +16,7 @@ export const PROJECTS: Projects[] = [
     role: 'Web Developer',
     description: 'Redesigned a website for a fashion designer.',
     key: 'projects/merfash-website',
-    projectType: 'sw'
+    projectType: 'sw',
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ export const PROJECTS: Projects[] = [
     description:
       'Developed a mobile application for users with memory-related ailments to connect with family.',
     key: 'projects/recollect',
-    projectType: 'sw'
+    projectType: 'sw',
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ export const PROJECTS: Projects[] = [
     description:
       'Collaborated to integrate screens and finalize user workflows for an iOS and Android mobile stock trading application.',
     key: 'projects/project-shadow',
-    projectType: 'sw'
+    projectType: 'sw',
   },
   {
     id: 4,
@@ -44,9 +44,9 @@ export const PROJECTS: Projects[] = [
     img: 'assets/LHBanner.png',
     role: 'UX Designer',
     description:
-      "Created a web and mobile prototype for a career coaching app for first-generation students.",
+      'Created a web and mobile prototype for a career coaching app for first-generation students.',
     key: 'projects/path-pioneer',
-    projectType: 'ux'
+    projectType: 'ux',
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ export const PROJECTS: Projects[] = [
     description:
       "Created a website mockup for Launch Hoboken's online Innovation Portal; received second place.",
     key: 'projects/launch-hoboken',
-    projectType: 'ux'
+    projectType: 'ux',
   },
   {
     id: 6,
@@ -66,7 +66,7 @@ export const PROJECTS: Projects[] = [
     description:
       'Designed and implemented a responsive, user-friendly interface to generate and display randomized affirming sentences.',
     key: 'projects/positive-affirmation-generator',
-    projectType: 'sw'
+    projectType: 'sw',
   },
   {
     id: 7,
@@ -75,6 +75,6 @@ export const PROJECTS: Projects[] = [
     role: '',
     description: "A collection of digital art and logos I've worked on.",
     key: 'art',
-    projectType: 'art'
-  }
+    projectType: 'art',
+  },
 ];

@@ -11,9 +11,8 @@ describe('PathPioneerComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PathPioneerComponent ]
-    })
-    .compileComponents();
+      declarations: [PathPioneerComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

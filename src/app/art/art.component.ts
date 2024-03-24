@@ -10,16 +10,14 @@ export class ArtComponent implements OnInit {
   art: Art[] = [];
   digitalArt: Art[] = [];
   logos: Art[] = [];
-  constructor(private artService : ArtService) {}
+  constructor(private artService: ArtService) {}
 
   ngOnInit() {
     this.getArt();
   }
 
   getArt(): void {
-    this.artService
-      .getArt()
-      .subscribe((art) => (this.art = art));
+    this.artService.getArt().subscribe((art) => (this.art = art));
     this.digitalArt = this.art.filter((art) => art.artType === 'digital');
     this.logos = this.art.filter((art) => art.artType === 'logo');
   }
@@ -39,70 +37,62 @@ export const ART: Art[] = [
     title: 'Nature Girl',
     description: '',
     img: 'assets/darknaturegirl.png',
-    artType: 'digital'
+    artType: 'digital',
   },
   {
     id: 2,
     title: 'Disguise',
-    description:
-      "",
+    description: '',
     img: 'assets/DisguiseL.png',
-    artType:'digital'
+    artType: 'digital',
   },
   {
     id: 3,
     title: 'Ms. Cool',
-    description:
-      "",
+    description: '',
     img: 'assets/Thehighestlowkey2.png',
-    artType:'digital'
+    artType: 'digital',
   },
   {
     id: 4,
     title: 'Under The Sun',
-    description:
-      "",
+    description: '',
     img: 'assets/underthesun.png',
-    artType:'digital'
+    artType: 'digital',
   },
   {
     id: 5,
     title: 'Sade',
-    description:
-      "",
+    description: '',
     img: 'assets/Sade.png',
-    artType:'digital'
+    artType: 'digital',
   },
   {
     id: 6,
     title: 'Package Direct',
-    description:
-      "",
+    description: '',
     img: 'assets/packagedirect.png',
-    artType:'logo'
+    artType: 'logo',
   },
   {
     id: 7,
     title: 'Mixed Icon',
-    description:
-      "",
+    description: '',
     img: 'assets/mixedicon.png',
-    artType:'logo'
+    artType: 'logo',
   },
   {
     id: 8,
     title: 'Recollect',
-    description:
-      "",
+    description: '',
     img: 'assets/recollect_logo.png',
-    artType:'logo'
+    artType: 'logo',
   },
   {
     id: 9,
     title: 'My Logo',
-    description:
-      "",
+    description: '',
     img: 'assets/Logo.png',
-    artType:'logo'
+    artType: 'logo',
   },
 ];

@@ -1,7 +1,9 @@
 <body *ngIf="!isLoading">
   <app-nav-bar></app-nav-bar>
   <router-outlet></router-outlet>
-  <button *ngIf="windowScrolled" class="back-top" (click)="backToTop()">↑</button>
+  <button *ngIf="windowScrolled" class="back-top" (click)="backToTop()">
+    ↑
+  </button>
   <app-footer></app-footer>
 </body>
 

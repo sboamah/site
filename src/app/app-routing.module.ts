@@ -25,9 +25,9 @@ const routes: Routes = [
     component: PositiveAffirmationGeneratorComponent,
   },
   { path: 'projects/merfash-website', component: MerfashWebsiteComponent },
-  {path: 'projects/path-pioneer', component: PathPioneerComponent},
-  {path: 'art', component: ArtComponent}
-]
+  { path: 'projects/path-pioneer', component: PathPioneerComponent },
+  { path: 'art', component: ArtComponent },
+];
 
 @NgModule({
   imports: [

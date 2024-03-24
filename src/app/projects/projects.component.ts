@@ -11,17 +11,21 @@ export class ProjectsComponent implements OnInit {
   uxProjects: Projects[] = [];
   swProjects: Projects[] = [];
   artProjects: Projects[] = [];
-  constructor(private projectService: ProjectsService) { }
+  constructor(private projectService: ProjectsService) {}
 
   ngOnInit() {
     this.getProjects();
   }
 
   getProjects(): void {
-    this.projectService.getProjects().subscribe((project) => (
-        this.uxProjects = project.filter((a) => a.projectType === 'ux'),
-        this.swProjects = project.filter((a) => a.projectType === 'sw'),
-        this.artProjects = project.filter((a) => a.projectType === 'art')
-        ));
+    this.projectService
+      .getProjects()
+      .subscribe(
+        (project) => (
+          (this.uxProjects = project.filter((a) => a.projectType === 'ux')),
+          (this.swProjects = project.filter((a) => a.projectType === 'sw')),
+          (this.artProjects = project.filter((a) => a.projectType === 'art'))
+        ),
+      );
   }
 }

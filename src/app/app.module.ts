@@ -39,7 +39,7 @@ import { PathPioneerComponent } from './projects/project/path-pioneer/path-pione
     FooterComponent,
     MerfashWebsiteComponent,
     ProjectNavComponent,
-    PathPioneerComponent
+    PathPioneerComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
