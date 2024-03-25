@@ -13,8 +13,7 @@ import { ArtComponent } from './art/art.component';
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
-    children: [{ path: '', component: AboutComponent }],
+    component: HomeComponent
   },
   { path: 'about', component: AboutComponent },
   { path: 'projects/recollect', component: RecollectComponent },
@@ -37,4 +36,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
