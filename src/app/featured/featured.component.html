@@ -6,7 +6,7 @@
         <img src="{{ feature.img }}" alt="{{ feature.title }}" />
         <div>
           <h3>
-            <a *ngIf="feature.link" href="{{ feature.link }}">{{
+            <a *ngIf="feature.link" target="_blank" href="{{ feature.link }}">{{
               feature.title
             }}</a>
             <p *ngIf="!feature.link">{{ feature.title }}</p>

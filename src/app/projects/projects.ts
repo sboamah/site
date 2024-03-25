@@ -22,7 +22,7 @@ export const PROJECTS: Projects[] = [
     id: 2,
     title: 'ReCollect',
     img: 'assets/recollect_logo.png',
-    role: 'Mobile UI/Front-End Developer',
+    role: 'Mobile UI Developer',
     description:
       'Developed a mobile application for users with memory-related ailments to connect with family.',
     key: 'projects/recollect',

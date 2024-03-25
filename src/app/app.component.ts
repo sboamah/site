@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
     window.addEventListener('load', () => {
       setTimeout(() => {
         this.isLoading = false;
-      }, 3000);
+      }, 2000);
     });
   }
   backToTop() {
