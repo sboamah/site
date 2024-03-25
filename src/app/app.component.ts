@@ -11,11 +11,11 @@ export class AppComponent implements OnInit {
   windowScrolled: boolean = false;
 
   ngOnInit() {
-    this.isLoading = true;
     window.addEventListener('scroll', () => {
       this.windowScrolled = window.scrollY !== 0;
     });
     window.addEventListener('load', () => {
+      this.isLoading = true;
       setTimeout(() => {
         this.isLoading = false;
       }, 2000);
