@@ -11,10 +11,7 @@ import { PathPioneerComponent } from './projects/project/path-pioneer/path-pione
 import { ArtComponent } from './art/art.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: HomeComponent
-  },
+  { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'projects/recollect', component: RecollectComponent },
   { path: 'projects/project-shadow', component: ProjectShadowComponent },
