@@ -17,3 +17,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PERSONAL_WEBSITE_D6D11 }}'
           channelId: live
           projectId: personal-website-d6d11
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
