@@ -33,23 +33,15 @@
   bottom: 40px;
   display: flex;
   right: 40px;
-  background-color: #00582d;
-  color: #fff;
+  background: transparent;
+  color: #00582d;
   text-decoration: none;
   cursor: pointer;
-  font-size: 32px;
-  font-family: "DM Serif Text";
+  font-size: 40px;
+  font-family: "DM Sans";
   font-weight: 900;
-  width: 50px !important;
-  height: 50px !important;
-  border-radius: 50%;
   text-align: center;
   border: none;
-  box-shadow:
-    0 1px 1px rgba(0, 0, 0, 0.15),
-    0 2px 2px rgba(0, 0, 0, 0.15),
-    0 4px 4px rgba(0, 0, 0, 0.15),
-    0 8px 8px rgba(0, 0, 0, 0.15);
   justify-content: center;
   align-items: center;
 }
