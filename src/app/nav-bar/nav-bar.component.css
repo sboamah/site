@@ -36,11 +36,6 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
-  transition: ease-in-out 0.5s;
-  border-bottom: 2px solid #000;
-}
-
 nav img {
   width: 40px;
   transition: all 0.2s ease-in-out;
@@ -54,6 +49,11 @@ nav img:hover {
   padding: 20px 10px 2px;
   margin-right: 10px;
   color: #000;
+}
+
+.nav-links a:hover {
+  transition: ease-in-out 0.5s;
+  border-bottom: 2px solid #000;
 }
 
 @media screen and (max-width: 480px) {
