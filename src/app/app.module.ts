@@ -20,9 +20,10 @@ import { FooterComponent } from './footer/footer.component';
 import { MerfashWebsiteComponent } from './projects/project/merfash-website/merfash-website.component';
 import { ProjectNavComponent } from './projects/project-nav/project-nav.component';
 import { PathPioneerComponent } from './projects/project/path-pioneer/path-pioneer.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     NavBarComponent,
     AboutComponent,
@@ -40,7 +41,8 @@ import { PathPioneerComponent } from './projects/project/path-pioneer/path-pione
     MerfashWebsiteComponent,
     ProjectNavComponent,
     PathPioneerComponent,
-  ],
+    ErrorPageComponent 
+   ],
   providers: [],
   bootstrap: [AppComponent],
   imports: [BrowserModule, AppRoutingModule, RouterModule],
