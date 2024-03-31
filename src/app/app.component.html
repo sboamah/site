@@ -1,4 +1,4 @@
-<body *ngIf="!isLoading">
+<body>
   <app-nav-bar></app-nav-bar>
   <router-outlet></router-outlet>
   <button *ngIf="windowScrolled" class="back-top" (click)="backToTop()">
@@ -7,6 +7,6 @@
   <app-footer></app-footer>
 </body>
 
-<div class="loading-animation" *ngIf="isLoading">
+<!-- <div class="loading-animation" *ngIf="isLoading">
   <div class="loader"></div>
-</div>
+</div> -->
