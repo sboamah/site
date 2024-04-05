@@ -21,6 +21,7 @@ import { MerfashWebsiteComponent } from './projects/project/merfash-website/merf
 import { ProjectNavComponent } from './projects/project-nav/project-nav.component';
 import { PathPioneerComponent } from './projects/project/path-pioneer/path-pioneer.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
+import { TelfarTypographyComponent } from './projects/project/telfar-typography/telfar-typography.component';
 
 @NgModule({
   declarations: [	
@@ -41,7 +42,8 @@ import { ErrorPageComponent } from './error-page/error-page.component';
     MerfashWebsiteComponent,
     ProjectNavComponent,
     PathPioneerComponent,
-    ErrorPageComponent 
+    ErrorPageComponent,
+    TelfarTypographyComponent
    ],
   providers: [],
   bootstrap: [AppComponent],

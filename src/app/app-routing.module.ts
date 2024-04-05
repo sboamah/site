@@ -10,22 +10,27 @@ import { MerfashWebsiteComponent } from './projects/project/merfash-website/merf
 import { PathPioneerComponent } from './projects/project/path-pioneer/path-pioneer.component';
 import { ArtComponent } from './art/art.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
-
+import { TelfarTypographyComponent } from './projects/project/telfar-typography/telfar-typography.component';
+const name = "Sylvia Boamah"
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'projects/recollect', component: RecollectComponent },
-  { path: 'projects/project-shadow', component: ProjectShadowComponent },
-  { path: 'projects/launch-hoboken', component: LaunchHobokenComponent },
+  { path: '', component: HomeComponent, title: name + ' | Home' },
+  { path: 'about', component: AboutComponent, title: name + ' | About' },
+  { path: 'projects/recollect', component: RecollectComponent, title: name + ' | ReCollect' },
+  { path: 'projects/project-shadow', component: ProjectShadowComponent, title: name + ' | Project Shadow' },
+  { path: 'projects/launch-hoboken', component: LaunchHobokenComponent, title: name + ' | Launch Hoboken Design Competition' },
   {
     path: 'projects/positive-affirmation-generator',
     component: PositiveAffirmationGeneratorComponent,
+    title: name + ' | Positive Affirmation Generator'
   },
-  { path: 'projects/merfash-website', component: MerfashWebsiteComponent },
-  { path: 'projects/path-pioneer', component: PathPioneerComponent },
-  { path: 'art', component: ArtComponent },
-  { path: '**', pathMatch: 'full',  
-        component: ErrorPageComponent }, 
+  { path: 'projects/merfash-website', component: MerfashWebsiteComponent, title: name + ' | Mercedes Santana Fashion Website' },
+  { path: 'projects/path-pioneer', component: PathPioneerComponent, title: name + ' | Path Pioneer Case Study' },
+  { path: 'projects/telfar-typography', component: TelfarTypographyComponent, title: name + ' | Animated Typography: Telfar' },
+  { path: 'art', component: ArtComponent, title: name + ' | Art' },
+  {
+    path: '**', pathMatch: 'full',
+    component: ErrorPageComponent, title: name + ' | 404'
+  },
 ];
 
 @NgModule({

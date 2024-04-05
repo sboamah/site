@@ -77,4 +77,13 @@ export const PROJECTS: Projects[] = [
     key: 'art',
     projectType: 'art',
   },
+  {
+    id: 8,
+    title: 'Animated Typography: Telfar',
+    img: '',
+    role: 'Computer Graphics Designer',
+    description: "Designed the typography for an animated landing page for an academic, client-driven project.",
+    key: 'projects/telfar-typography',
+    projectType: 'art',
+  },
 ];
