@@ -33,15 +33,18 @@
   bottom: 40px;
   display: flex;
   right: 20px;
-  background: transparent;
-  color: #00582d;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background: #00582d;
   text-decoration: none;
   cursor: pointer;
   font-size: 40px;
   font-family: "DM Sans";
-  font-weight: 900;
+  font-weight: 400;
   text-align: center;
   border: none;
+  border-radius: 100%;
   justify-content: center;
   align-items: center;
 }
