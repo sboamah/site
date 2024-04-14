@@ -48,3 +48,11 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width:588px){
+  .back-top {
+    width:40px;
+    height: 40px;
+    font-size: 32px;
+  }
+}
