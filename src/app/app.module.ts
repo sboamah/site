@@ -22,6 +22,7 @@ import { ProjectNavComponent } from './projects/project-nav/project-nav.componen
 import { PathPioneerComponent } from './projects/project/path-pioneer/path-pioneer.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { TelfarTypographyComponent } from './projects/project/telfar-typography/telfar-typography.component';
+import { SustainableCepComponent } from './projects/project/sustainable-cep/sustainable-cep.component';
 
 @NgModule({
   declarations: [	
@@ -43,7 +44,8 @@ import { TelfarTypographyComponent } from './projects/project/telfar-typography/
     ProjectNavComponent,
     PathPioneerComponent,
     ErrorPageComponent,
-    TelfarTypographyComponent
+    TelfarTypographyComponent,
+    SustainableCepComponent
    ],
   providers: [],
   bootstrap: [AppComponent],

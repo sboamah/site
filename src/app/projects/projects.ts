@@ -9,6 +9,15 @@ export class Projects {
 }
 
 export const PROJECTS: Projects[] = [
+    {
+    id: 1,
+    title: 'Sustainable Community Enrichment Project',
+    img: 'assets/SCEPLogo.png',
+    role: 'Frontend Developer',
+    description: 'Designed a website to support a sustainable community initiative.',
+    key: 'projects/scep',
+    projectType: 'sw',
+  },
   {
     id: 1,
     title: 'Mercedes Santana Fashion Website',

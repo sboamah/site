@@ -11,6 +11,7 @@ import { PathPioneerComponent } from './projects/project/path-pioneer/path-pione
 import { ArtComponent } from './art/art.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { TelfarTypographyComponent } from './projects/project/telfar-typography/telfar-typography.component';
+import { SustainableCepComponent } from './projects/project/sustainable-cep/sustainable-cep.component';
 const name = "Sylvia Boamah"
 const routes: Routes = [
   { path: '', component: HomeComponent, title: name + ' | Home' },
@@ -24,6 +25,7 @@ const routes: Routes = [
     title: name + ' | Positive Affirmation Generator'
   },
   { path: 'projects/merfash-website', component: MerfashWebsiteComponent, title: name + ' | Mercedes Santana Fashion Website' },
+  { path: 'projects/scep', component: SustainableCepComponent, title: name + ' | Sustainable Community Enrichment Project' },
   { path: 'projects/path-pioneer', component: PathPioneerComponent, title: name + ' | Path Pioneer Case Study' },
   { path: 'projects/telfar-typography', component: TelfarTypographyComponent, title: name + ' | Animated Typography: Telfar' },
   { path: 'art', component: ArtComponent, title: name + ' | Art' },
